@@ -1,0 +1,49 @@
+@import './_custom-variables.scss';
+
+// BOOTSTRAP OVERIDE STYLES
+
+.skeleton-wrapper {
+  max-width: 100%;
+  overflow-x: hidden;
+  vertical-align: top;
+}
+
+.skeleton-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.active {
+  border-bottom: none!important;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.center-children {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.stats-list-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.8rem;
+}
+
+.stats-list-subitems {
+  margin-top: 1rem;
+}
+
+.stats-list-subitem {
+  margin-top: 0.2rem;
+}

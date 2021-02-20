@@ -1,0 +1,436 @@
+{
+  "common": {
+    "back": "Voltar",
+    "min": "min",
+    "max": "max",
+    "close": "Fechar"
+  },
+  "title": "xToken",
+  "announcement": {
+    "message": "xToken has just lifted transaction limits (hooray!). This means you can now take any position size. Please be aware, however, since the limits were only just removed, liquidity in the system may be low initially."
+  },
+  "homePage": {
+    "title": "Página inicial",
+    "meta": "Página inicial da xToken",
+    "lend": "Emprestar",
+    "trade": "Operar"
+  },
+  "hintHowToConnect": {
+    "hintOne": "Para usar a xToken, você precisa antes conectar a sua carteira na rede da RSK.",
+    "hintTwo": "Veja instruções sobre como configurar a <0>Metamask</0> ou <1>Nifty</1> e conectar sua carteira:"
+  },
+  "serviceWorkerToaster": {
+    "title": "O aplicativo foi atualizado.",
+    "message": "Novo conteúdo disponível e será usado quando todas as guias desta página forem fechadas.",
+    "button": "Atualizar agora"
+  },
+  "tradingActivity": {
+    "title": "Minhas operações",
+    "walletNote": "Primeiro conecte sua carteira!",
+    "tabs": {
+      "activeTrades": "Em andamento",
+      "tradingHistory": "Concluídas"
+    }
+  },
+  "tradingPage": {
+    "meta": {
+      "title": "Operações",
+      "description": "Opere com a xToken."
+    },
+    "email": {
+      "optin": {
+        "title": "Sucesso",
+        "text": "Agora você receberá notificações por e-mail quando suas posições estiverem próximas da liquidação e se uma posição for liquidada. Você pode cancelar a inscrição a qualquer momento"
+      },
+      "unsubscribe": {
+        "title": "Você cancelou a inscrição nas notificações por e-mail",
+        "text": "Você não receberá mais e-mails sobre chamadas de margem ou posições liquidadas. Você pode se inscrever novamente a qualquer momento."
+      }
+    }
+  },
+  "tradingHistoryPage": {
+    "title": "Histórico de operações",
+    "auth": "Por favor, conecte e autorize sua carteira.",
+    "noClosedTrades": "Você não tem operações concluídas."
+  },
+  "fastBtcPage": {
+    "meta": {
+      "title": "Fast-BTC",
+      "description": "Transfira seu Bitcoin para a rede RSK."
+    }
+  },
+  "fastBtcForm": {
+    "title": "Fast-BTC Relay",
+    "history": {
+      "title": "Histórico",
+      "empty": "Histórico vazio.",
+      "walletHistory": "Insira seu endereço da carteira RSK para ver o histórico.",
+      "loading": "Carregando..."
+    },
+    "connectWallet": "Você precisa primeiro conectar sua carteira com o dapp.",
+    "connect": "Conecte sua carteira ou insira você mesmo um endereço no campo acima.",
+    "depositAdress": "Endereço de depósito BTC",
+    "depositAddressCopied": "Seu endereço BTC de depósito foi copiado para a área de transferência",
+    "toDepositWallet": "depositar carteira",
+    "placeholder": "Seu endereço da carteira RSK",
+    "waitingForDeposit": "Aguardando depósito",
+    "exchanging": "Nós estamos trocando seu BTC para rBTC.",
+    "transfered": "foi transferido para sua carteira RSK",
+    "swapAgain": "Realizar nova troca"
+  },
+  "tradeOrSwapTabs": {
+    "tabs": {
+      "trade": "Operar",
+      "swap": "Trocar moedas"
+    }
+  },
+  "marginTradeForm": {
+    "fields": {
+      "currency": "Moeda",
+      "currency_placeholder": "Escolha a moeda",
+      "amount": "Quantidade"
+    },
+    "buttons": {
+      "submit": "Realizar operação"
+    }
+  },
+  "swapTradeForm": {
+    "fields": {
+      "currency_placeholder": "Escolha a moeda",
+      "send": "Você envia",
+      "receive": "Você recebe"
+    },
+    "buttons": {
+      "submit": "Realizar troca"
+    }
+  },
+  "amountField": {
+    "placeholder": "Insira a quantidade",
+    "btn_max": "Max"
+  },
+  "wallet": {
+    "btn": "Conectar carteira",
+    "connect_btn": "Escolher carteira",
+    "disconnect": "Sair",
+    "my_wallet": "Minha carteira",
+    "referrals": "Indique um amigo"
+  },
+  "hintDialog": {
+    "title": "Dicas xToken"
+  },
+  "footer": {
+    "title": "Distribuído por <0>Bitcoin</0>"
+  },
+  "mainMenu": {
+    "trade": "Operar",
+    "lend": "Empréstimos",
+    "fastBtc": "Fast-Btc",
+    "liquidity": "Liquidez",
+    "stats": "Dados",
+    "faqs": "FAQs"
+  },
+  "trandingPositionSelector": {
+    "long": "Comprado",
+    "short": "Vendido"
+  },
+  "assetWalletBalance": {
+    "accountBalance": "Saldo disponível",
+    "suppliedBalance": "Saldo disponibilizado",
+    "connect": "Conectar carteira"
+  },
+  "leverageSelector": {
+    "text": "Alavancagem"
+  },
+  "activeLoan": {
+    "expandedRow": {
+      "leverage": "alavancagem",
+      "startMargin": "Margem inicial",
+      "mainenanceMargin": "Margem de manutenção",
+      "currentPrice": "Preço atual",
+      "liquidationPrice": "Preço de liquidação",
+      "renewalDate": "Data de renovação"
+    },
+    "table": {
+      "positionSize": "Tamanho da posição",
+      "profit": "Lucro",
+      "container": {
+        "topUp": "Aumentar posição",
+        "close": "Fechar posição"
+      }
+    }
+  },
+  "expandedRowMobile": {
+    "currentMargin": "Margem atual",
+    "interestAPR": "Juros anual",
+    "startPrice": "Preço inicial",
+    "leverage": "Alavancagem",
+    "startMargin": "Margem inicial",
+    "maintenanceMargin": "Margem de manutenção",
+    "currentPrice": "Preço atual",
+    "liquidationPrice": "Preço de liquidação",
+    "renewalDate": "Data de renovação"
+  },
+  "statsPage": {
+    "asset": "Ativo",
+    "totalAssetSupplied": "Total de ativos fornecidos",
+    "totalAssetBorrowed": "Total de ativos emprestados",
+    "totalAvailable": "Total disponível",
+    "supplyAPR": "Juros anual (Emprestador)",
+    "borrowAPR": "Juros anual (Tomador)"
+  },
+  "pageNotFound": {
+    "text": "Página não encontrada.",
+    "backHome": "Ir para página inicial"
+  },
+  "liquidity": {
+    "title": "Liquidez",
+    "meta": "Adicionar liquidez",
+    "pool": "Pool",
+    "currency": "Moeda",
+    "currencySelect": "Selecionar moeda",
+    "poolSelect": "Select pool",
+    "amount": "Insira a quantidade",
+    "amountTarget": "Quantidade desejada",
+    "token": "Pool tokens a receber",
+    "fee": "Taxa",
+    "supply": "Fornecer liquidez",
+    "withdraw": "Retirar liquidez"
+  },
+  "modal": {
+    "close": "Fechar"
+  },
+  "formSelect": {
+    "loading": "Abrindo, por favor aguarde.",
+    "noresults": "Sem resultados.",
+    "placeholder": "Selecione algo"
+  },
+  "hintHowToTopUp": {
+    "hintOne": "Você está conectado! Para operar e emprestar com a xToken, você vai precisar de alguns bitcoins na rede RSK.",
+    "hintTwo": "Carregue sua carteira na",
+    "hintThree": "e comece a usar!"
+  },
+  "notificationFromContainer": {
+    "want": "Deseja receber notificações por e-mail sobre chamadas de margem e posições liquidadas?",
+    "update": "Atualize o nome ou endereço de e-mail associado a este endereço de carteira.",
+    "recieve": "Eu gostaria de receber e-mails sobre atualizações e novos recursos da xToken"
+  },
+  "whiteListedNotification": {
+    "text": "Atualmente a xToken está disponível apenas para usuários convidados e sua carteira ainda não está na lista de permissões. Todas as interações estão desativadas até que o endereço da sua carteira esteja liberado."
+  },
+  "limitsNotification": {
+    "text": "xToken has just lifted transaction limits (hooray!). This means you can now take any position size. Please be aware, however, since the limits were only just removed, liquidity in the system may be low initially."
+  },
+  "lend": {
+    "history": {
+      "title": "Histórico"
+    },
+    "currency": {
+      "lend": "Emprestar",
+      "borrow": "Tomar empréstimo",
+      "lendArp": "Juros anual (Emprestador)",
+      "borrowArp": "Juros anual (Tomador)"
+    },
+    "container": {
+      "leftBtn": "Fornecer",
+      "rightBtn": "Retirar",
+      "amountName": "Valor do depósito",
+      "balance": "Emprestado",
+      "profit": "Lucro",
+      "supply": "Fornecer"
+    },
+    "borrowingContainer": {
+      "amount": "Valor do empréstimo",
+      "token": "Token a ser colaterizado",
+      "collateralAmount": "Quantidade colaterizada",
+      "borrow": "Tomar empréstimo",
+      "chooseDays": "Choose days"
+    }
+  },
+  "activeUserBorrows": {
+    "text": "Você não tem nenhum empréstimo em andamento."
+  },
+  "topUpTradingPositionHandler": {
+    "title": "Aumentar posição",
+    "topUpAmount": "Aumentar quantidade",
+    "topUp": "Aumentar",
+    "currency": "Moeda"
+  },
+  "liquidityRemoveContainer": {
+    "fields": {
+      "currency": "Moeda",
+      "currency_placeholder": "Escolha a moeda",
+      "amount": "Insira a quantidade",
+      "target_amount": "Quantidade desejada",
+      "fee": "Taxa"
+    },
+    "supplied_balance": "Saldo fornecido",
+    "not_connected": "Conectar carteira",
+    "btn": "Retirar"
+  },
+  "borrowActivity": {
+    "title": "Minhas dívidas",
+    "tabs": {
+      "active": "Em andamento",
+      "history": "Quitadas"
+    },
+    "walletNote": "Primeiro conecte sua carteira!"
+  },
+  "borrowHistory": {
+    "table": {},
+    "no_items": "Seu histórico de empréstimos está vazio."
+  },
+  "rskConnectTutorial": {
+    "browser_wallet": "Browser Wallet",
+    "mobile_wallet": "Mobile Wallet",
+    "hardware_wallet": "Hardware Wallet",
+    "speech": {
+      "1": "Open up your browser wallet",
+      "2": "Go to network dropdown",
+      "3": "Select custom RPC",
+      "4": "Input network details",
+      "5": "Click Save",
+      "6": "Click Add Network",
+      "7": "Engage Your Wallet!"
+    },
+    "mobileSpeech": {
+      "1": "Go to Wallet Menu",
+      "2": "Select Settings",
+      "3": "Select Networks",
+      "4": "Click Add Network",
+      "5": "Input Network Settings",
+      "6": "Click Add",
+      "7": "Scan QR Code to Connect!"
+    },
+    "speech_qr_code": "Scan QR code with a wallet-connect compatible wallet",
+    "input_settings": {
+      "title": "RSK Network Settings",
+      "network": "Network Name",
+      "new_RPC": "New RPC URL",
+      "chain_Id": "Chain ID",
+      "symbol": "Symbol",
+      "explorer_url": "Block Explorer URL"
+    },
+    "step": "Step",
+    "screens": {
+      "1": {
+        "title": "Connect Your Wallet",
+        "banner": "Don't have a wallet? We recomend"
+      },
+      "11": {
+        "title": "Connect to the RSK Network",
+        "banner": "Don't have a wallet? We recomend"
+      },
+      "2": {
+        "title": "How to Connect to RSK Network",
+        "banner": "For any assistance, reach out to the community"
+      },
+      "3": {
+        "title": "Scan QR Code",
+        "banner": "For any assistance, reach out to the community"
+      },
+      "4": {
+        "title": "Connect With Mobile Wallet",
+        "banner": "For any assistance, reach out to the community"
+      }
+    }
+  },
+  "mobileNotReady": {
+    "submit": "Submit",
+    "p1": "The xToken user experience is not yet optimized for mobile.",
+    "p2": "Register your email to hear when our mobile version is ready!",
+    "p3": "Until then, why not try the desktop version?",
+    "errorText": "Error submitting form",
+    "success": "Success!",
+    "successText": "We will contact you as soon as xToken Mobile is live."
+  },
+  "fastBTC": {
+    "screens": {
+      "1": {
+        "title": "You Are Connected!",
+        "p1": "In order to borrow/lend and trade on xToken, you must first enable your BNB by transferring them to your  wallet.",
+        "createAddress": "Create Address"
+      },
+      "2": {
+        "p1": "Your unique BTC address has been created, transfer BTC to receive RBTC in your RSK wallet.",
+        "depositRequirements": "Deposit requirements",
+        "fee": "Fee",
+        "feeExplainer": "Deducted from transaction amount",
+        "important": "Important",
+        "important1": "Do not deposit any non - BTC assets to this address, otherwise your assets will be lost permanently",
+        "important2": "Please allow upto 15 mins for the transaction to process",
+        "contactUs": "For support please join us on",
+        "txDetected": "Transaction detected"
+      },
+      "3": {
+        "txDetails": "Transaction Details",
+        "txHash": "Transaction hash",
+        "from": "From wallet",
+        "to": "To wallet",
+        "amount": "Amount transacted",
+        "fee": "Fee",
+        "initiated": "Initiated",
+        "status": "Status",
+        "estimated": "Estimated Time"
+      }
+    }
+  },
+  "fastBTC": {
+    "screens": {
+      "1": {
+        "title": "You Are Connected!",
+        "p1": "In order to borrow/lend and trade on xToken, you must first enable your BNB by transferring them to your  wallet.",
+        "createAddress": "Create Address"
+      },
+      "2": {
+        "p1": "Your unique BTC address has been created, transfer BTC to receive RBTC in your RSK wallet.",
+        "depositRequirements": "Deposit requirements",
+        "fee": "Fee",
+        "feeExplainer": "Deducted from transaction amount",
+        "important": "Important",
+        "important1": "Do not deposit any non - BTC assets to this address, otherwise your assets will be lost permanently",
+        "important2": "Please allow upto 15 mins for the transaction to process",
+        "contactUs": "For support please join us on",
+        "txDetected": "Transaction detected"
+      },
+      "3": {
+        "txDetails": "Transaction Details",
+        "txHash": "rBTC Tx hash",
+        "txId": " BTC Tx ID",
+        "from": "From wallet",
+        "to": "To wallet",
+        "amount": "Amount transacted",
+        "fee": "Fee",
+        "initiated": "Initiated",
+        "status": "Status",
+        "estimated": "Estimated Time"
+      }
+    }
+  },
+  "walletProvider": {
+    "txRequestDialog": {
+      "closeButton": "Ok",
+      "approve": {
+        "title": "Aprovar Tokens",
+        "description": "Confirme a transação na sua carteira para aprovar gastar {{amount}} {{asset}} neste contrato inteligente.",
+        "error": "Falha na solicitação de aprovação:"
+      }
+    }
+  },
+  "sendTxProgress": {
+    "pending_for_user": {
+      "title": "Pendente para o usuário",
+      "text": "Por favor, confirme a transação na sua carteira."
+    }
+  },
+  "topUpBtcDialog": {
+    "meta": {
+      "title": "Top-UP"
+    }
+  },
+  "walletPage": {
+    "meta": {
+      "title": "Minha carteira",
+      "description": "Informações sobre a carteira conectada"
+    }
+  }
+}
