@@ -73,9 +73,9 @@ export function Header() {
               {/* <NavLink className="nav-item mr-4" to="/lend" exact>
                 {t(translations.mainMenu.lend)}
               </NavLink> */}
-              <NavLink className="nav-item mr-4" to="/stats">
+              {/* <NavLink className="nav-item mr-4" to="/stats">
                 {t(translations.mainMenu.stats)}
-              </NavLink>
+              </NavLink> */}
               <NavLink className="nav-item mr-4" to="/wallet">
                 {t(translations.mainMenu.wallet)}
               </NavLink>
