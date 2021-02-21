@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { translations } from 'locales/i18n';
 import { useIsConnected } from 'app/hooks/useAccount';
 import { ActiveUserBorrows } from 'app/containers/ActiveUserBorrows';
-import { BorrowHistory } from 'app/containers/BorrowHistory/Loadable';
+import { MintHistory } from 'app/containers/MintHistory/Loadable';
 
 import { Tab } from '../Tab';
 import { SkeletonRow } from '../Skeleton/SkeletonRow';
@@ -18,25 +18,32 @@ interface Props {}
 export function MintActivity(props: Props) {
   const { t } = useTranslation();
   const isConnected = useIsConnected();
-  const [activeBorrows, setActiveBorrows] = useState(true);
+  const [activeBorrows, setActiveBorrows] = useState(false);
   return (
     <div>
       <div className="mt-5 mb-4 d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
         <h3 className="mt-0 mb-3 mb-md-0 text-white">
-          {t(translations.borrowActivity.title)}
+          {t(translations.mintActivity.title)}
         </h3>
 
         <div className="d-flex flex-row align-items-center justify-content-start justify-content-md-end">
-          <div className="mr-3">
+          {/* <div className="mr-3">
             <Tab
               text={t(translations.borrowActivity.tabs.active)}
               active={activeBorrows}
               onClick={() => setActiveBorrows(true)}
             />
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <Tab
               text={t(translations.borrowActivity.tabs.history)}
+              active={!activeBorrows}
+              onClick={() => setActiveBorrows(false)}
+            />
+          </div> */}
+          <div>
+            <Tab
+              text={t(translations.mintActivity.tabs.history)}
               active={!activeBorrows}
               onClick={() => setActiveBorrows(false)}
             />
@@ -52,7 +59,7 @@ export function MintActivity(props: Props) {
           ) : activeBorrows ? (
             <ActiveUserBorrows />
           ) : (
-            <BorrowHistory />
+            <MintHistory />
           )}
         </div>
       </div>
