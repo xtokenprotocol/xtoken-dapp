@@ -6,13 +6,13 @@ export class LendingPoolDictionary {
     //[Asset.BNB, new LendingPool('BTC', Asset.BNB, [Asset.JFIN, Asset.GASH])],
     //[Asset.BUSDJ, new LendingPool('BUSDJ', Asset.BUSDJ, [Asset.JFIN])],
     // eslint-disable-next-line
-    [Asset.BUSD, new LendingPool('BUSD', Asset.BUSD, [Asset.BUSD, Asset.JFIN, Asset.GASH])],
+    [Asset.xTHB, new LendingPool('xTHB', Asset.xTHB, [Asset.BUSD])],
     // eslint-disable-next-line
-    [Asset.JFIN, new LendingPool('JFIN', Asset.JFIN, [Asset.BUSD, Asset.JFIN, Asset.GASH])],
+    //[Asset.xGOLD, new LendingPool('xGOLD', Asset.xGOLD, [Asset.BUSD])],
     // eslint-disable-next-line
-    [Asset.GASH, new LendingPool('GASH', Asset.GASH, [Asset.BUSD, Asset.JFIN, Asset.GASH])],
-    // eslint-disable-next-line
-    [Asset.ETH, new LendingPool('ETH', Asset.ETH, [Asset.BUSD, Asset.JFIN, Asset.GASH])],
+    [Asset.xGOOGL, new LendingPool('xGOOGL', Asset.xGOOGL, [Asset.BUSD])],
+    [Asset.xAAPL, new LendingPool('xAAPL', Asset.xAAPL, [Asset.BUSD])],
+    [Asset.xTSLA, new LendingPool('xTSLA', Asset.xTSLA, [Asset.BUSD])],
 
     /*
     [Asset.BUSD, new LendingPool('BUSD', Asset.BUSD, [Asset.BUSD, Asset.JFIN, Asset.GASH, Asset.ETH, Asset.ALPHA, Asset.BAND, Asset.DOGE, Asset.USDT])],

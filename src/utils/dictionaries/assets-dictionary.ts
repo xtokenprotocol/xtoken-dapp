@@ -6,7 +6,10 @@ import bnbIcon from 'assets/images/tokens/bnb.svg';
 import goldIcon from 'assets/images/tokens/gold.svg';
 import ethIcon from 'assets/images/tokens/eth.svg';
 import alphaIcon from 'assets/images/tokens/alpha.svg';
-import dogeIcon from 'assets/images/tokens/doge.svg';
+import applIcon from 'assets/images/tokens/apple.svg';
+import googlIcon from 'assets/images/tokens/google.svg';
+import tslaIcon from 'assets/images/tokens/tesla.svg';
+import thbIcon from 'assets/images/tokens/thb.svg';
 import bandIcon from 'assets/images/tokens/band.svg';
 import usdtIcon from 'assets/images/tokens/usdt.svg';
 //import btcIcon from 'assets/images/tokens/btc.svg';
@@ -16,18 +19,23 @@ import { AssetDetails } from '../models/asset-details';
 export class AssetsDictionary {
   public static assets: Map<Asset, AssetDetails> = new Map<Asset, AssetDetails>(
     [
-      [Asset.BNB, new AssetDetails(Asset.BNB, 'BNB', 'BNB', 18, bnbIcon)],
+      [Asset.xTHB, new AssetDetails(Asset.xTHB, 'xTHB', 'xTHB', 18, thbIcon)],
       [Asset.BUSD, new AssetDetails(Asset.BUSD, 'BUSD', 'BUSD', 18, busdIcon)],
-      [Asset.JFIN, new AssetDetails(Asset.JFIN, 'JFIN', 'JFIN', 18, jfinIcon)],
-      [Asset.GASH, new AssetDetails(Asset.GASH, 'GASH', 'GASH', 18, goldIcon)],
-      [Asset.ETH, new AssetDetails(Asset.ETH, 'ETH', 'ETH', 18, ethIcon)],
+      [
+        Asset.xGOLD,
+        new AssetDetails(Asset.xGOLD, 'xGOLD', 'xGOLD', 18, jfinIcon),
+      ],
+      [
+        Asset.xGOOGL,
+        new AssetDetails(Asset.xGOOGL, 'xGOOGL', 'xGOOGL', 18, googlIcon),
+      ],
+      [
+        Asset.xAAPL,
+        new AssetDetails(Asset.xAAPL, 'xAAPL', 'xAAPL', 18, applIcon),
+      ],
       // eslint-disable-next-line
-      [Asset.ALPHA, new AssetDetails(Asset.ALPHA, 'ALPHA', 'ALPHA', 18, alphaIcon)],
-      //[Asset.WBNB, new AssetDetails(Asset.WBNB, 'WBNB', 'WBNB', 18, bnbIcon)],
-      [Asset.DOGE, new AssetDetails(Asset.DOGE, 'DOGE', 'DOGE', 18, dogeIcon)],
-      [Asset.BAND, new AssetDetails(Asset.BAND, 'BAND', 'BAND', 18, bandIcon)],
-      [Asset.USDT, new AssetDetails(Asset.USDT, 'USDT', 'USDT', 18, usdtIcon)],
-      //[Asset.WBTC, new AssetDetails(Asset.WBTC, 'WBTC', 'WBTC', 18, btcIcon)],
+      [Asset.xTSLA, new AssetDetails(Asset.xTSLA, 'xTSLA', 'xTSLA', 18, tslaIcon)],
+
     ],
   );
 

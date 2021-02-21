@@ -1,12 +1,9 @@
 export enum Asset {
   BNB = 'BNB',
+  xTHB = 'xTHB',
+  xGOLD = 'xGOLD',
+  xGOOGL = 'xGOOGL',
+  xAAPL = 'xAAPL',
+  xTSLA = 'xTSLA',
   BUSD = 'BUSD',
-  JFIN = 'JFIN',
-  GASH = 'GASH',
-  ETH = 'ETH',
-  ALPHA = 'ALPHA',
-  DOGE = 'DOGE',
-  BAND = 'BAND',
-  USDT = 'USDT',
-  WBTC = 'BTC',
 }

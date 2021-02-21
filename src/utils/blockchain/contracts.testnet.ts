@@ -17,33 +17,44 @@ import SwapNetworkABI from './abi/xTokenSwapNetwork.json';
 import ConverterRegistryABI from './abi/ConverterRegistry.json';
 /*
 {
-    "WBASE": "0xF0Ab2d52283DAb94a1Db9Da99E528D686BC14dBd",
-    "BUSD": "0xC8a19327f421FEe2bd991196A12c95DB7C3A7De9",
-    "JFIN": "0xF8e0E07e21Cc6e5AAB3F09359cBBDE1132FF9b83",
-    "GASH": "0x3778D12096117eEcdb18fCFd0E45F4EAbf4E0Af8",
-    "mocOracleAddress": "0x884e737F3E155781Bcb7aa3b5d68F9c111c0E20D",
-    "tfiOracleAddress": "0x60F1c8D5337a3290214293018E0a498bF6e7293B",
-    "GoldOracleAddress": "0xCB93d6dA970485d551e89C4B7460372590506D87",
-    "JFINOracleAddress": "0x6E6a75E8e8aA47466a997E53b885e2c6F81Be722",
-    "thaifiProtocol": "0x279Eb1BDBb3fb52e0DfDc50e6962f3773eCd27d8",
-    "PriceFeeds": "0xFB4b1028CFD531dC53fF03BFc418BB524c9A1f4C",
-    "LoanTokenLogicStandard": "0x4f95b19a31599B1Cc5bb673bE39940A61aA9d60E",
-    "iBUSD": "0x3861b023e7a199c73f803888896949Bbb9Ba0DbA",
-    "iBUSD_PriceFeed": "0xDc5a315C84CF6062608b1266636B90c054b63993",
-    "iJFIN": "0xF1572F7090e075336ac6caAd6B1D97e670807241",
-    "iJFIN_PriceFeed": "0x6E6a75E8e8aA47466a997E53b885e2c6F81Be722",
-    "iGASH": "0x60B7EE0eeC769c7E90285e5e42FB0B163E803D76",
-    "iGASH_PriceFeed": "0xCB93d6dA970485d551e89C4B7460372590506D87"
+    "WBASE": "0xbAFeE0D462FC95553a2F891ab4758f6361737B0e",
+    "xTHB": "0xF48496cb8eC05fA18c5D194c9475f2cFEEEeD54F",
+    "xGOLD": "0x1817E2B6210Ff0B78890E388a4F27d8Ad577d875",
+    "xGOOGL": "0x37150e602795CA6E765054FE23d3b79dA4cB7d24",
+    "xAAPL": "0x17Df7EC93d4C258C8Adf63f20365E3BCf73c778e",
+    "xTSLA": "0x4f2ca5F8DEd2DA0541a9c861A0205BF9Ca4630a6",
+    "BUSD": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+    "mocOracleAddress": "0x34261a4BBD67a89e4F5CEC5aecb1e6252Ce141B3",
+    "tfiOracleAddress": "0xFc6ac0478867ce1F7f536214E3a611a7C154aF39",
+    "THBOracleAddress": "0xaaB8bBCd0aD8F2D1169e104F20d9A2A6B0c0D0da",
+    "GOLDOracleAddress": "0xB0d718CaaDA6d4e6872f8Cb830616e2B0C2455D0",
+    "GOOGLOracleAddress": "0xCebf9309F0374D0d3e8635f9F439849e3F45Bab0",
+    "AAPLOracleAddress": "0x1a22320526EBD8C2324708196DBc2D42644186f0",
+    "TSLAOracleAddress": "0x62A1BeB1C943b637215Cd16437A2E62D52404C10",
+    "thaifiProtocol": "0x546aAb05d4487C5451587DB7E81f621431d00Ade",
+    "PriceFeeds": "0x2BFa9F6EC6Cf03c12021f9EDC4e9248c8E7dC979",
+    "LoanTokenLogicStandard": "0xdF5fb5ecD5Aac914B6d0981837E82E2969909Ab1",
+    "xTHB-P": "0x8d806Dc7D98c6C8422F3De4e4E907217a0F26405",
+    "xTHB-P_PriceFeed": "0xaaB8bBCd0aD8F2D1169e104F20d9A2A6B0c0D0da",
+    "xGOLD-P": "0x890690e530F2C8125B3f117bB49Cfe849FBECCdA",
+    "xGOLD-P_PriceFeed": "0xB0d718CaaDA6d4e6872f8Cb830616e2B0C2455D0",
+    "xGOOGL-P": "0x3bBb46d191A0890C8ad3f8A2151ff3f65CefaC54",
+    "xGOOGL-P_PriceFeed": "0xCebf9309F0374D0d3e8635f9F439849e3F45Bab0",
+    "xAAPL-P": "0x817A27fF6316A3237bF6E78dab65D044B8322DB6",
+    "xAAPL-P_PriceFeed": "0x1a22320526EBD8C2324708196DBc2D42644186f0",
+    "xTSLA-P": "0x9E467DBE7dbDa9f5c19E2C422A02a9b5ffF9AF75",
+    "xTSLA-P_PriceFeed": "0x62A1BeB1C943b637215Cd16437A2E62D52404C10"
 }
+
 */
 export const contracts = {
   xtokenProtocol: {
-    address: '0x79886787512EEEA3c08A1c4841DFe436B36aBb47',
+    address: '0x546aAb05d4487C5451587DB7E81f621431d00Ade',
     abi: bzxAbi,
     blockNumber: 4613455,
   },
   priceFeed: {
-    address: '0x41D4A43207F75C96fa65044230668642e4f630aB',
+    address: '0x2BFa9F6EC6Cf03c12021f9EDC4e9248c8E7dC979',
     abi: priceFeedsAbi,
     blockNumber: 4613459,
   },
@@ -67,18 +78,8 @@ export const contracts = {
     abi: LoanTokenLogicWrbtc,
     blockNumber: 4613527,
   },
-  BUSDJ_token: {
-    address: '0x7749b99533F8255D3Ba173511cA3Aa74a1C8A07d',
-    abi: TestTokenABI,
-    blockNumber: 4613441,
-  },
-  BUSDJ_lending: {
-    address: '0xBAEED624F64E528A557B9753d5e1dA01E965A27f',
-    abi: LoanTokenLogicStandard,
-    blockNumber: 4613503,
-  },
   BUSD_token: {
-    address: '0x7749b99533F8255D3Ba173511cA3Aa74a1C8A07d',
+    address: '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
     abi: TestTokenABI,
     blockNumber: 4613441,
   },
@@ -87,74 +88,53 @@ export const contracts = {
     abi: LoanTokenLogicStandard,
     blockNumber: 4613503,
   },
-
-  JFIN_token: {
-    address: '0xEdc7c51d3831b2fdD0cd8bAB5E36298037A5129e',
+  xTHB_token: {
+    address: '0xF48496cb8eC05fA18c5D194c9475f2cFEEEeD54F',
     abi: TestTokenABI,
     blockNumber: 4862414,
   },
-  JFIN_lending: {
-    address: '0xf83C3162A21CE95FD2cab50Ce90cC760Fd55607d',
+  xTHB_lending: {
+    address: '0x8d806Dc7D98c6C8422F3De4e4E907217a0F26405',
     abi: LoanTokenLogicStandard,
     blockNumber: 4862414,
   },
-  GASH_token: {
-    address: '0xB724e979267a337b415F083a0C14f1Ef9D43ccF1',
+  xGOLD_token: {
+    address: '0x1817E2B6210Ff0B78890E388a4F27d8Ad577d875',
     abi: TestTokenABI,
     blockNumber: 4865634,
   },
-  GASH_lending: {
-    address: '0x7Cf3ff7f2329D16f46FE2C5256fAc81Fce77f465',
+  xGOLD_lending: {
+    address: '0x890690e530F2C8125B3f117bB49Cfe849FBECCdA',
     abi: LoanTokenLogicStandard,
     blockNumber: 4613566,
   },
-  ETH_token: {
-    address: '0xc35b23d78B5042f734e8DfBF1F94E29B8F3C4d59',
+  xGOOGL_token: {
+    address: '0x37150e602795CA6E765054FE23d3b79dA4cB7d24',
     abi: TestTokenABI,
     blockNumber: 4865634,
   },
-  ETH_lending: {
-    address: '0x2517D6d7Ef47d975C5BD083B978808b37B56f90b',
+  xGOOGL_lending: {
+    address: '0x3bBb46d191A0890C8ad3f8A2151ff3f65CefaC54',
     abi: LoanTokenLogicStandard,
     blockNumber: 4862414,
   },
-  BAND_token: {
-    address: '0x254b759AC5dc140d62e6bc42b7c7C7f9C82a20d2',
+  xAAPL_token: {
+    address: '0x17Df7EC93d4C258C8Adf63f20365E3BCf73c778e',
     abi: TestTokenABI,
     blockNumber: 4865634,
   },
-  BAND_lending: {
-    address: '0x526aE42f26e65382F85D19b97FD82FCe33a61115',
+  xAAPL_lending: {
+    address: '0x817A27fF6316A3237bF6E78dab65D044B8322DB6',
     abi: LoanTokenLogicStandard,
     blockNumber: 4862414,
   },
-  ALPHA_token: {
-    address: '0xE7C75241Ec97a93b2E5f24845Bf3B9af196030e3',
+  xTSLA_token: {
+    address: '0x4f2ca5F8DEd2DA0541a9c861A0205BF9Ca4630a6',
     abi: TestTokenABI,
     blockNumber: 4865634,
   },
-  ALPHA_lending: {
-    address: '0x3daCD1a25c1ee58821cc52250fFA2D323491FAe0',
-    abi: LoanTokenLogicStandard,
-    blockNumber: 4862414,
-  },
-  DOGE_token: {
-    address: '0xd6308F601166573e1e15f0fe7667B589a3fA8361',
-    abi: TestTokenABI,
-    blockNumber: 4865634,
-  },
-  DOGE_lending: {
-    address: '0x1b2Eb82C21689bFB38813b5cD3eBa81256AD72BC',
-    abi: LoanTokenLogicStandard,
-    blockNumber: 4862414,
-  },
-  USDT_token: {
-    address: '0x104F81de940F3a725c23cF615DBdCe3F37D80979',
-    abi: TestTokenABI,
-    blockNumber: 4865634,
-  },
-  USDT_lending: {
-    address: '0x14c2594E1Cd5Dde171aDfD2b948E67FF83495611',
+  xTSLA_lending: {
+    address: '0x9E467DBE7dbDa9f5c19E2C422A02a9b5ffF9AF75',
     abi: LoanTokenLogicStandard,
     blockNumber: 4862414,
   },

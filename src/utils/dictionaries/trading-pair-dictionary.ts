@@ -8,7 +8,7 @@ export enum TradingPairType {
 }
 
 export class TradingPairDictionary {
-  public static longPositionTokens = [Asset.BUSD, Asset.JFIN];
+  public static longPositionTokens = [Asset.BUSD, Asset.BUSD];
   public static pairs: Map<TradingPairType, TradingPair> = new Map<
     TradingPairType,
     TradingPair
@@ -21,11 +21,11 @@ export class TradingPairDictionary {
         Asset.BNB,
         'Bitfinex:BTCUSD',
         // asset for long position
-        Asset.JFIN,
+        Asset.BUSD,
         // asset for sort position
         Asset.BNB,
-        [Asset.BNB, Asset.JFIN, Asset.BUSD],
-        [Asset.BNB, Asset.JFIN, Asset.BUSD],
+        [Asset.BNB, Asset.BUSD],
+        [Asset.BNB, Asset.BUSD],
       ),
     ],
     [
@@ -33,14 +33,14 @@ export class TradingPairDictionary {
       new TradingPair(
         'GASH',
         // asset
-        Asset.GASH,
+        Asset.xGOLD,
         'Bitfinex:BTCUSD',
         // asset for long position
-        Asset.JFIN,
+        Asset.BUSD,
         // asset for sort position
-        Asset.GASH,
-        [Asset.JFIN, Asset.GASH, Asset.BUSD],
-        [Asset.JFIN, Asset.GASH, Asset.BUSD],
+        Asset.xGOLD,
+        [Asset.BUSD, Asset.BUSD],
+        [Asset.BUSD, Asset.BUSD],
       ),
     ],
   ]);
