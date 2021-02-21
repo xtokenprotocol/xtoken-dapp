@@ -28,7 +28,7 @@ import { TutorialDialog } from './components/TutorialDialog/container';
 import { WalletPage } from './containers/WalletPage/Loadable';
 
 const title =
-  currentNetwork !== 'mainnet' ? `JREPO ${currentNetwork}` : 'JREPO';
+  currentNetwork !== 'mainnet' ? `xToken ${currentNetwork}` : 'xToken';
 
 function getFaviconEl(): HTMLLinkElement {
   return document.getElementById('favicon') as HTMLLinkElement;
