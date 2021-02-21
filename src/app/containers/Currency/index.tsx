@@ -3,8 +3,9 @@ import { Container, Row } from 'react-bootstrap';
 
 import { useInjectReducer, useInjectSaga } from 'utils/redux-injectors';
 
-import CurrencyContainer from './components/CurrencyContainer';
 import './assets/index.scss';
+
+import CurrencyContainer from './components/CurrencyContainer';
 import CurrencyDetails from './components/CurrencyDetails';
 // import LendingHistory from './components/LendingHistory';
 import { Header } from 'app/components/Header';
@@ -16,7 +17,7 @@ import { TabType } from './types';
 import { Footer } from '../../components/Footer';
 import { RepayPositionHandler } from '../RepayPositionHandler/Loadable';
 // import { BorrowActivity } from '../../components/BorrowActivity/Loadable';
-// import { MintActivity } from '../../components/MintActivity/Loadable';
+import { MintActivity } from '../../components/MintActivity/Loadable';
 
 type Props = {};
 
@@ -46,7 +47,7 @@ const Currency: React.FC<Props> = props => {
       <Container className="mt-4">
         {/* {state.tab === TabType.LEND && <LendingHistory />} */}
         {/* {state.tab === TabType.BORROW && <BorrowActivity />} */}
-        {/* {state.tab === TabType.MINT && <MintActivity />} */}
+        {state.tab === TabType.MINT && <MintActivity />}
         <RepayPositionHandler />
       </Container>
       <Footer />

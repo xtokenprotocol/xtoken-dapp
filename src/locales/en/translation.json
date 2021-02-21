@@ -226,7 +226,8 @@
       "borrow": "Borrow",
       "mint": "Mint",
       "lendArp": "Lend APR",
-      "borrowArp": "Borrow APR"
+      "borrowArp": "Borrow APR",
+      "price": "Current Price"
     },
     "container": {
       "leftBtn": "Deposit",
@@ -283,6 +284,18 @@
   "borrowHistory": {
     "table": {},
     "no_items": "Your borrow history is empty."
+  },
+  "mintActivity": {
+    "title": "Mint Activity",
+    "tabs": {
+      "active": "Active",
+      "history": "Close Position"
+    },
+    "walletNote": "Connect your wallet first!"
+  },
+  "mintHistory": {
+    "table": {},
+    "no_items": "Your mint history is empty."
   },
   "rskConnectTutorial": {
     "browser_wallet": "Browser Wallet",

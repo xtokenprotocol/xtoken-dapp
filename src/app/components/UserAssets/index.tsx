@@ -39,7 +39,7 @@ export function UserAssets() {
         </h2>
         {connected && account && (
           <div>
-            <Text ellipsize>{prettyTx(account)}</Text>
+            <Text ellipsize className="nav-item active">{prettyTx(account)}</Text>
           </div>
         )}
       </div>
@@ -54,9 +54,9 @@ export function UserAssets() {
               <th className="text-right d-none d-md-table-cell">
                 {t(translations.userAssets.tableHeaders.dollarBalance)}
               </th>
-              <th className="text-right d-none d-md-table-cell">
+              {/* <th className="text-right d-none d-md-table-cell">
                 {t(translations.userAssets.tableHeaders.action)}
-              </th>
+              </th> */}
             </tr>
           </thead>
           <tbody className="mt-5">
@@ -140,7 +140,7 @@ function AssetRow({ item }: AssetProps) {
           loading={dollars.loading}
         />
       </td>
-      <td className="text-right d-none d-md-table-cell">
+      {/* <td className="text-right d-none d-md-table-cell">
         <ButtonGroup>
           <Button
             minimal
@@ -153,7 +153,7 @@ function AssetRow({ item }: AssetProps) {
             }
           />
         </ButtonGroup>
-      </td>
+      </td> */}
     </tr>
   );
 }
